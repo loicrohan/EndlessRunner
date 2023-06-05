@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ddc57ffe234e2aa4cbfb57d5e3242d97
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Comics Deluxe
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 998db552733b3544d842560fb70fd508, type: 3}
+  - {fileID: 12800000, guid: 4903d30a77ea9644bb43664f5d5cc000, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
