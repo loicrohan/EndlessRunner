@@ -1792,7 +1792,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 4903d30a77ea9644bb43664f5d5cc000, type: 3}
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -1804,7 +1804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Simply Run as much possible & collect coins to increase your score without
+  m_Text: "\nSimply Run as much possible & collect coins to increase your score without
     hitting the obstacles. \n\nKeys : \nMove left & Right = A & D/Left & Right Arrow
     keys\nJump = W/Up arrow/Spacebar"
 --- !u!222 &571710848

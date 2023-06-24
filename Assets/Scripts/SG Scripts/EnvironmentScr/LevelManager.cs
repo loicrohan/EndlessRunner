@@ -10,11 +10,13 @@ public class LevelManager : MonoBehaviour
     public GameObject countDown3, countDown2, countDown1, countDownGO, fadeIn,currentScoreText;
     public AudioSource readyFX, goFX;
     public LevelDistance levelDist;
+    //public PoolingManager PoolM;
     void Start()
     {
         currentScoreText.GetComponent<Text>().enabled = false;
         PlayerMove.canMove = false;
         levelDist.GetComponent<LevelDistance>().enabled = false;
+        //PoolM.GetComponent<PoolingManager>().enabled = false;
         StartCoroutine(CountSequence());
     }
     void Update()
@@ -43,5 +45,6 @@ public class LevelManager : MonoBehaviour
     {
         levelDist.GetComponent<LevelDistance>().enabled = true;
         currentScoreText.GetComponent<Text>().enabled = true;
+        //PoolM.GetComponent<PoolingManager>().enabled = true;
     }
 }

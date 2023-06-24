@@ -19,7 +19,7 @@ public class ObsatcleCollision : MonoBehaviour
         levelControl.GetComponent<LevelDistance>().enabled = false;
         crashThud.Play();
         mainCam.GetComponent<Animator>().enabled = true;
-        levelControl.GetComponent<GeneratePath>().enabled = false;
+        levelControl.GetComponent<PoolingManager>().enabled = false;
         levelControl.GetComponent<EndRunSequence>().enabled = true;
     }
 }
