@@ -8,7 +8,7 @@ public class ObsatcleCollision : MonoBehaviour
     public AudioSource crashThud;
     void Start()
     {
-
+        levelControl.GetComponent<PoolingManager>().enabled = true;
     }
     void OnTriggerEnter(Collider other)
     {
@@ -19,7 +19,7 @@ public class ObsatcleCollision : MonoBehaviour
         levelControl.GetComponent<LevelDistance>().enabled = false;
         crashThud.Play();
         mainCam.GetComponent<Animator>().enabled = true;
-        levelControl.GetComponent<PoolingManager>().enabled = false;
+        levelControl.GetComponent<PoolingManager>().CancelInvoke();
         levelControl.GetComponent<EndRunSequence>().enabled = true;
     }
 }

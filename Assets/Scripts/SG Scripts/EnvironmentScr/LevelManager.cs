@@ -16,7 +16,6 @@ public class LevelManager : MonoBehaviour
         currentScoreText.GetComponent<Text>().enabled = false;
         PlayerMove.canMove = false;
         levelDist.GetComponent<LevelDistance>().enabled = false;
-        //PoolM.GetComponent<PoolingManager>().enabled = false;
         StartCoroutine(CountSequence());
     }
     void Update()
@@ -45,6 +44,5 @@ public class LevelManager : MonoBehaviour
     {
         levelDist.GetComponent<LevelDistance>().enabled = true;
         currentScoreText.GetComponent<Text>().enabled = true;
-        //PoolM.GetComponent<PoolingManager>().enabled = true;
     }
 }
