@@ -8,7 +8,7 @@ public class ObsatcleCollision : MonoBehaviour
     public AudioSource crashThud;
     void Start()
     {
-        levelControl.GetComponent<PoolingManager>().enabled = true;
+        
     }
     void OnTriggerEnter(Collider other)
     {

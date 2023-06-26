@@ -10,7 +10,6 @@ public class LevelManager : MonoBehaviour
     public GameObject countDown3, countDown2, countDown1, countDownGO, fadeIn,currentScoreText;
     public AudioSource readyFX, goFX;
     public LevelDistance levelDist;
-    //public PoolingManager PoolM;
     void Start()
     {
         currentScoreText.GetComponent<Text>().enabled = false;
