@@ -13,7 +13,6 @@ public class PoolingManager : MonoBehaviour
     private List<GameObject> pathPool; // A list that holds the pooled path objects.
     private int pathIndex = 0; //An index variable to keep track of the current path
                                //prefab to be instantiated from the pathPrefabs array.
-
     private void Start()
     {
         //It initializes the object pool by instantiating the path objects and adding them to the pathPool list.
@@ -36,7 +35,6 @@ public class PoolingManager : MonoBehaviour
         //starting from the beginning of the game.
         InvokeRepeating("SpawnPath", 0f, spawnInterval);
     }
-
     private GameObject InstantiatePath()
     {
         //This method instantiates a path object from the pathPrefabs array.
@@ -51,7 +49,6 @@ public class PoolingManager : MonoBehaviour
         zPos += 50.5f/*51.1f*/;
         return path;
     }
-
     private void SpawnPath()
     {
         //This method is called at regular intervals. It searches for an inactive path in the object pool.

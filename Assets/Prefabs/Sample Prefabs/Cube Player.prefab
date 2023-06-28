@@ -211,6 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12.5
+  Respawn: 2
 --- !u!143 &2141902060
 CharacterController:
   m_ObjectHideFlags: 0

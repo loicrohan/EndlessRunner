@@ -2857,9 +2857,9 @@ MonoBehaviour:
   - {fileID: 1595911212}
   - {fileID: 1398710485}
   - {fileID: 562088208}
-  poolSize: 20
+  poolSize: 60
   zPos: 64
-  spawnInterval: 10
+  spawnInterval: 9.5
 --- !u!1 &1088733383
 GameObject:
   m_ObjectHideFlags: 0
